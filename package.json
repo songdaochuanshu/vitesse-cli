@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "magic": "./bin/index.js"
+    "vitesse": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +25,8 @@
   "dependencies": {
     "commander": "^9.1.0",
     "inquirer": "^8.2.2",
+    "ora": "^6.1.0",
     "shelljs": "^0.8.5"
-  }
+  },
+  "type": "module"
 }
