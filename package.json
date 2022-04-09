@@ -1,0 +1,33 @@
+{
+  "name": "vitesse-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "vitesse": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songdaochuanshu/vitesse-cli.git"
+  },
+  "issues": "https://github.com/songdaochuanshu/vitesse-cli/issues",
+  "keywords": [
+    "cli",
+    "vitesse",
+    "vitesse-cli",
+    "vite"
+  ],
+  "author": "songdaochuanshu",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.2",
+    "ora": "^6.1.0",
+    "shelljs": "^0.8.5"
+  },
+  "type": "module"
+}
